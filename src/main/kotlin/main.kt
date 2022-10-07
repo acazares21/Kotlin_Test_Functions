@@ -1,8 +1,8 @@
 //Testing kotlin functions
 
 fun main (){
-    var variableA: String = "a"
-    var variableB: String = "b"
+    val variableA: String = "a"
+    val variableB: String = "b"
 
     println("Hello World!!")
     println("\n"+evaluation(variableA, variableB)+"\n")
@@ -17,10 +17,11 @@ fun evaluation(variableA: String = "Ángel", variableB: String = "Cazares"): Str
     println(variableA)
     println(variableB)
 
-    var resulA: String = "variableA $variableA"
-    var resulB: String = "variableB $variableB"
+    val resulA: String = "variableA $variableA"
+    val resulB: String = "variableB $variableB"
 
     return "La variable a es: $resulA\nLa variable b es: $resulB"
+
 }
 
 //For more information about this, please visit the following link
